@@ -348,7 +348,7 @@ const TypebotEditor = () => {
                       updateElement(index, { content: e.target.value })
                     }
                     className="element-input"
-                    placeholder="Enter your message here"
+                    placeholder="Enter your Question..."
                   />
                   <button
                     onClick={() => deleteElement(index)}
@@ -378,7 +378,7 @@ const TypebotEditor = () => {
                           updateElement(index, { hint: e.target.value })
                         }
                         className="element-input"
-                        placeholder="Enter hint text (e.g., Type your answer...)"
+                        placeholder="Enter hint text "
                       />
                     )}
                     <button
